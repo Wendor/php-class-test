@@ -43,7 +43,7 @@ for ($i = 0; $i < $num; $i++) {
 
 $time_end = microtime(true);
 $execution_time = $time_end - $time_start;
-echo "Test one file: " . number_format($execution_time, 10) . PHP_EOL;
+echo "Test one big classs: " . number_format($execution_time, 10) . PHP_EOL;
 
 
 # test separated classes
@@ -56,5 +56,5 @@ for ($i = 0; $i < $num; $i++) {
 
 $time_end = microtime(true);
 $execution_time = $time_end - $time_start;
-echo "Test many files: " . number_format($execution_time, 10) . PHP_EOL;
+echo "Test separate classes: " . number_format($execution_time, 10) . PHP_EOL;
 
